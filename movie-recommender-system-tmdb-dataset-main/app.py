@@ -33,7 +33,6 @@ movie_list = movies['title'].values
 selected_movie = st.selectbox(
     "Type or select a movie from the dropdown",
     movie_list
-    
 )
 
 if st.button('Show Recommendation'):
